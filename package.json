@@ -1,0 +1,28 @@
+{
+  "name": "PugScss Boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack-dev-server --open",
+    "dist": "webpack --config webpack.config.babel.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "csso-loader": "^0.2.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "html-loader": "^0.4.4",
+    "node-sass": "^4.1.1",
+    "postcss-loader": "^1.2.1",
+    "pug": "^2.0.0-beta6",
+    "pug-html-loader": "^1.0.10",
+    "sanitize.css": "^4.1.0",
+    "sass-loader": "^4.1.1",
+    "webpack": "2.2.0-rc.3",
+    "webpack-dev-server": "2.2.0-rc.0"
+  }
+}
