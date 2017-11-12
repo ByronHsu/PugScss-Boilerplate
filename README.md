@@ -1,8 +1,8 @@
-#DEV
+# DEV
 ```
    yarn run server
 ```
-#PROD
+# PROD
 ```
    yarn run dist
 ```
